@@ -19,11 +19,11 @@ for line in str(full_text).split():
 
 class Mail():
     def __init__(self):
-        self.account = "dld19037@nuc.kwansei.ac.jp"
+        self.account = "**************"
         self.password = getpass.getpass("enter your password :")
-        self.to_addr = "unix-bof@lsnl.jp"
-        self.from_addr = "taisei@kwansei.ac.jp"
-        self.subject = "(開催通知) UNIXを楽しむ会 " +\
+        self.to_addr = "**************"
+        self.from_addr = "**************"
+        self.subject = "*****************" +\
             m.group() + " (水) 12:40/13:30"
         self.context = ssl.create_default_context()
 
